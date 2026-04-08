@@ -1,7 +1,7 @@
 package core
 
 import (
-	users "github.com/simpleWrapper/core/resources"
+	users "github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/simpleWrapper/userWrapper/core/resources"
 
 	"github.com/jaxron/axonet/pkg/client"
 )

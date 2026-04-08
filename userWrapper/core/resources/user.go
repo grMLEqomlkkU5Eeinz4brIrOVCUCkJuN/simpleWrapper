@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/jaxron/axonet/pkg/client"
-	"github.com/simpleWrapper/core/types"
+	"github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/simpleWrapper/userWrapper/core/types"
 )
 
 type Users struct {

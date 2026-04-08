@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/jaxron/axonet/pkg/client"
-	users "github.com/simpleWrapper/core/resources"
-	"github.com/simpleWrapper/core/types"
+	users "github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/simpleWrapper/userWrapper/core/resources"
+	"github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/simpleWrapper/userWrapper/core/types"
 )
 
 func setupTestServer(t *testing.T, handler http.HandlerFunc) (*httptest.Server, *users.Users) {
