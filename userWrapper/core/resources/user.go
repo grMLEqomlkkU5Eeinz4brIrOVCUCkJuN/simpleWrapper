@@ -67,6 +67,7 @@ func (u *Users) Create(ctx context.Context, req types.CreateUserRequest) (*types
 	resp, err := u.client.NewRequest().
 		Method(http.MethodPost).
 		URL(u.baseURL + "/users").
+		Header("Content-Type", "application/json").
 		MarshalBody(req).
 		Result(&result).
 		Do(ctx)
@@ -95,6 +96,7 @@ func (u *Users) Update(ctx context.Context, req types.UpdateUserRequest) (*types
 	resp, err := u.client.NewRequest().
 		Method(http.MethodPatch).
 		URL(u.baseURL + "/users/" + req.ID).
+		Header("Content-Type", "application/json").
 		MarshalBody(body).
 		Result(&result).
 		Do(ctx)
