@@ -1,4 +1,4 @@
-module github.com/simpleWrapper
+module github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/simpleWrapper/userWrapper
 
 go 1.26.1
 
